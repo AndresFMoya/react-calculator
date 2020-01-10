@@ -9,8 +9,6 @@ This project consist of building a simple calculator using React.
 ### Live Verion
 [React Calculator](https://ancient-dusk-58332.herokuapp.com)
 
-
-
 ### Contributor
 [Andrés F. Moya](https://github.com/AndresFMoya)
 
