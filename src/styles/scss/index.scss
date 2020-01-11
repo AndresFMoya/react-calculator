@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.display {
+  background-color: grey;
+  box-sizing: border-box;
+  height: 100px;
+  color: white;
+  font-size: 60px;
+  padding: 15px 30px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.button {
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+  width: 25%;
+  margin: auto;
+  font-size: 40px;
+  border: 1px solid darkgrey;
+}
