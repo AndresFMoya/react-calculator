@@ -1,4 +1,4 @@
-import Big from 'big.js';
+import Big from 'big.js/big';
 
 const operate = (numberOne, numberTwo, operation) => {
   const one = Big(numberOne);
@@ -14,7 +14,6 @@ const operate = (numberOne, numberTwo, operation) => {
   }
   if (operation === '÷') {
     if (parseFloat(two) === 0) {
-      alert('Error: Divide by 0.');
       return '0';
     }
     return one.div(two).toString();
