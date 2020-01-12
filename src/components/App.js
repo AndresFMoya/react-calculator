@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
+import calculate from '../logic/calculate';
 
-const App = () => (
-  <div className="app">
-    <Display />
-    <ButtonPanel />
-  </div>
-);
+const App = () => {
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const handleClick = (buttonName) => {
+    setState(calculate(state, buttonName));
+  };
+
+  return (
+    <div className="app">
+      <Display value={state.next || state.total || '0'} />
+      <ButtonPanel clickHandler={handleClick} />
+    </div>
+  );
+};
 
 export default App;
