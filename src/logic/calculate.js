@@ -1,7 +1,7 @@
-import Big from 'big.js';
+import Big from 'big.js/big';
 import operate from './operate';
 
-const isNumber = (item) => /[0-9]+/.test(item);
+const isNumber = item => /[0-9]+/.test(item);
 
 const calculate = (obj, buttonName) => {
   if (buttonName === 'AC') {

@@ -1,4 +1,4 @@
-import Big from 'big.js';
+import Big from 'big.js/big';
 
 const operate = (numberOne, numberTwo, operation) => {
   const one = Big(numberOne);
@@ -13,11 +13,12 @@ const operate = (numberOne, numberTwo, operation) => {
     return one.times(two).toString();
   }
   if (operation === '÷') {
-    if (two !== '0') {
-      return one.div(two).toString();
+    if (parseFloat(two) === 0) {
+      return '0';
     }
+    return one.div(two).toString();
   }
-  return 'ERROR';
+  return ('0');
 };
 
 export default operate;
