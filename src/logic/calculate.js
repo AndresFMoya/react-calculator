@@ -1,4 +1,4 @@
-import Big from 'big.js/big';
+import Big from 'big-js';
 import operate from './operate';
 
 const isNumber = item => /[0-9]+/.test(item);
