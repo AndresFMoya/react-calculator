@@ -5,6 +5,7 @@ import calculate from '../logic/calculate';
 
 const App = () => {
   const [state, setState] = useState({
+    error: null,
     total: null,
     next: null,
     operation: null,
@@ -16,7 +17,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <Display value={state.next || state.total || '0'} />
+      <Display value={state.error || state.next || state.total || '0'} />
       <ButtonPanel clickHandler={handleClick} />
     </div>
   );

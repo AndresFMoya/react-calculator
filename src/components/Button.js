@@ -8,9 +8,7 @@ const Button = (props) => {
   const style = { backgroundColor: color };
   if (wide) style.width = '50%';
 
-  const handleClick = () => {
-    clickHandler(name);
-  };
+  const handleClick = () => { clickHandler(name); };
 
   return (
     <button className="button" type="button" style={style} onClick={handleClick}>
