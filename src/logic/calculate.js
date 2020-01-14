@@ -6,6 +6,7 @@ const isNumber = item => /[0-9]+/.test(item);
 const calculate = (obj, buttonName) => {
   if (buttonName === 'AC') {
     return {
+      error: null,
       total: null,
       next: null,
       operation: null,
@@ -82,7 +83,11 @@ const calculate = (obj, buttonName) => {
   }
 
   if (buttonName === '=') {
-    if (obj.next && obj.operation) {
+    if (obj.next === '0' && obj.operation === '÷') {
+      return {
+        error: 'Error: Divide by 0.',
+      };
+    } if (obj.next && obj.operation) {
       const result = operate(obj.total, obj.next, obj.operation);
       return {
         total: result,

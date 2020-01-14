@@ -13,9 +13,6 @@ const operate = (numberOne, numberTwo, operation) => {
     return one.times(two).toString();
   }
   if (operation === '÷') {
-    if (parseFloat(two) === 0) {
-      return '0';
-    }
     return one.div(two).toString();
   }
   return ('0');
