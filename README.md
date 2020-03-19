@@ -1,26 +1,45 @@
-## React - Calculator
-This project consist of building a simple calculator using React.
+# Calculator - ReactJS
+This project consist of building a simple calculator using ReactJS.
 
-![Calculator](public/calculator.jpg?raw=true "Title")
+## Technologies used
 
-### Assignment Link
-[Project React Calculator](https://github.com/microverseinc/project-react-calculator)
+- ReactJS
+- Bootstrap
+- HTML
+- CSS
+- Git
+- IDE (IntelliJ Webstorm)
 
-### Live Verion
-[React Calculator](https://ancient-dusk-58332.herokuapp.com)
+## [Live Version](https://ancient-dusk-58332.herokuapp.com)
 
-### Contributor
-[Andrés F. Moya](https://github.com/AndresFMoya)
+## 🤝 Contributing
 
-### Install
-- To get started with the app, first clone the repo and `cd` into the directory:
-  
-  ```
-  $ git clone https://github.com/AndresFMoya/react-calculator.git
-  $ cd react-calculator
-  ```
-- `npm install`
+Contributions, issues and feature requests are welcome! Feel free to check [issues page](https://github.com/AndresFMoya/HTML_and_CSS3-Basic_Page_Structure/issues).
 
-- Start the app locallly:
+1. Fork it (https://github.com/AndresFMoya/react-calculator/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new pull request
 
-- `npm start`
+
+## Contributors
+
+- Andres Felipe Moya https://github.com/AndresFMoya
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+
+This project is [MIT](https://github.com/AndresFMoya/react-calculator/blob/develop/LICENSE) licensed.
+
+
+## 📞Contact
+I will love to hear about you at one of the following places! :heart:
+
+- [LinkedIn](https://www.linkedin.com/in/andres-f-moya/)
+- [Twitter](https://www.twitter.com/andmedev/) 
+- <andresfmoya@gmail.com>.
+- <https://andresmoya.me>
