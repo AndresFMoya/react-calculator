@@ -1,7 +1,7 @@
 # Calculator - ReactJS
 This project consist of building a simple calculator using ReactJS.
 
-<img src="/public/calculator.jpg" alt="calculator" width:"50%" >
+<img width="50%" alt="Screenshot" src="/public/calculator.jpg">
 
 ## Technologies used
 
