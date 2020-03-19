@@ -1,6 +1,8 @@
 # Calculator - ReactJS
 This project consist of building a simple calculator using ReactJS.
 
+![Calculator](/public/calculator.jpg)
+
 ## Technologies used
 
 - ReactJS
